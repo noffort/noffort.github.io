@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kanbanize + Clockify Extension</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJDTMFELTV"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SJDTMFELTV');
+    </script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -89,6 +98,11 @@
             font-size: 1.2em;
         }
 
+        .section ol li img {
+            display: block;
+            margin: 0 auto;
+        }
+
     </style>
 </head>
 <body>
@@ -96,7 +110,7 @@
         <h1>Kanbanize + Clockify Extension</h1>
     </header>
     <div class="container">
-        <p>Streamline your workflow with our Chrome and Firefox extension. Features include:</p>
+        <p>Streamline your workflow with our Chrome extension. Features include:</p>
         <div class="features">
             <div class="feature">
                 <h3>Play New Tasks</h3>
@@ -119,10 +133,22 @@
             <h2>How It Works</h2>
             <p>Here's how you can use our integration:</p>
             <ol>
-                <li><strong>Install the extension:</strong> Download and install the extension for Chrome or Firefox from the official store.</li>
-                <li><strong>Configure Clockify API Key:</strong> In the extension settings, enter your Clockify API Key to enable the integration.</li>
-                <li><strong>Play New Tasks:</strong> To play new tasks, go to your Kanbanize tab and open the task you want to track. Click on the extension icon and select the project and tag, then click on the PLAY button.</li>
-                <li><strong>Pause Button:</strong> Use the PAUSE button to take a break and pause your task tracking.</li>
+                <li>
+                    <strong>Install the extension:</strong> Download and install the extension for Chrome or Firefox from the official store.
+                </li>
+                <li>
+                    <strong>Configure Clockify API Key:</strong> In the extension settings, enter your Clockify API Key to enable the integration.
+                    <img src="images/screenshot02.png" alt="Put your API Key">
+                </li>
+                <li>
+                    <strong>Play New Tasks:</strong> To play new tasks, go to your Kanbanize tab and open the task you want to track. Click on the extension icon and select the project and tag, then click on the PLAY button.
+                    
+                    <img src="images/screenshot03.png" alt="Put your API Key">
+                </li>
+                <li>
+                    <strong>Pause Button:</strong> Use the PAUSE button to take a break and pause your task tracking.
+                    <img src="images/screenshot06.png" alt="Put your API Key">
+                </li>
                 <li><strong>Stop Button:</strong> Click the STOP button to finish tracking your task.</li>
             </ol>
             <p>With these simple steps, you can seamlessly integrate Kanbanize and Clockify to enhance your workflow.</p>
